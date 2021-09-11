@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { NativeBaseProvider, VStack, Center, FormControl, Text, Input, Button, Avatar, Radio, HStack } from 'native-base'
 import { Formik } from 'formik'
 import axios from 'axios'
-import { DatePicker } from './components/datePicker'
+import { DatePicker } from '../components/datePicker'
 import moment from 'moment'
 
 
