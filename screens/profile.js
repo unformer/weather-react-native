@@ -50,7 +50,7 @@ export const Profile = () => {
             <Center flex={1}>
                 <Formik initialValues={{ firstName: user.name.first, lastName: user.name.last, date: user.dob.date, gender: user.gender }} onSubmit={onSubmit} validate={validate}>
                     {({ handleChange, handleBlur, handleSubmit, setFieldValue, values, errors }) => (
-                        <VStack width="80%" space={4}>
+                        <VStack width="80%" space={3}>
                             <Center>
                                 <Avatar
                                     size='2xl'

@@ -1,10 +1,9 @@
 import React from 'react'
-import { SafeAreaView } from 'react-native'
-import { Profile } from './screens/profile'
+import { BottomNavBar } from './components/bottomNavBar'
 
-const App = () => {  
+const App = () => {
   return (
-      <Profile />    
+    <BottomNavBar />
   )
 }
 
